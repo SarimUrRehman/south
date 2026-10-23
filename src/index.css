@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-script: "Great Vibes", cursive;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  --color-navy-dark: #14263F;
+  --color-navy: #1F3A5F;
+  --color-navy-light: #2A4D7C;
+  --color-coastal: #6B8CAE;
+  --color-coastal-light: #E2EAF2;
+  --color-sand: #D9A441;
+  --color-sand-hover: #C59132;
+  --color-surface-soft: #F3F6FA;
+  --color-text-main: #1B2430;
+}
+
+.font-script {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-serif-heading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Custom smooth transitions and focus ring styling */
+*:focus-visible {
+  outline: 2px solid #D9A441;
+  outline-offset: 2px;
+}

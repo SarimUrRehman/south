@@ -1,0 +1,6 @@
+{
+  "name": "Southern Shore Painting",
+  "description": "Professional residential & commercial painting, trash outs, and pressure washing across the Florida Panhandle. Licensed & insured.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
